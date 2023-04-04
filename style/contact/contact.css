@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+}
+
+main img {
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact h1 {
+    margin-left: -20px;
+}
+
+.tel-mail {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tel-mail .garis {
+    margin: 10px;
+    margin-top: 15px !important;
+}
+
+.tel-mail a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tel-mail a:hover {
+    color: rgb(234, 200, 166);
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.form .input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    margin-top: 5px;
+    background-color: #2a4259;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: #2a4259;
+    border: 1px solid #2a4259;
+    font-weight: bold;
+  }

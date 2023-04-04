@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    width: 99.81%;
+    height: 87.5vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    width: 320px;
+    border: 20px ridge white;
+    margin-top: 15px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption h1 {
+    width: 100%;
+    margin-left: auto;
+}
+
+footer {
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+footer a {
+    color: black;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: rgb(234, 200, 166);
+}
